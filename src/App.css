@@ -1,31 +1,61 @@
-.App {
-  text-align: center;
+b {
+  color: rgb(3, 116, 182);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  margin: 0.3rem;
+  cursor: pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.btn:hover {
+  opacity: 0.8;
 }
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.small {
+  padding: 0.2rem 0.7rem;
+  font-size: 1rem;
+  font-weight:400;
 }
-
-.App-link {
-  color: rgb(112, 76, 182);
+.big{
+  padding: 0.5rem 1rem;
+  font-size: 1.05rem;
+  font-weight: 500;
 }
-
+.blue{
+  background-color: rgb(6, 81, 124);
+  color:rgb(255, 255, 255);
+}
+.green {
+  background-color: rgb(4, 114, 19);
+  color: rgb(255, 255, 255);
+}
+ul li {
+  list-style: none;
+  cursor: pointer;
+}
+.parag2 {
+    font-size: 1.1em;
+    line-height:30px;
+    background-color: inherit;
+    padding: 3rem 3rem;
+    border:0.5px solid rgb(221, 220, 220);
+    border-radius: 0 2rem 0 2rem;
+}
+.projs li{
+  list-style: none;
+  width: 300px;
+  height: fit-content;
+  margin: 0.5rem;
+  background-color: inherit;
+  display: inline-grid;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: 0.5px solid rgb(122, 122, 122);
+  border-radius: 5px;
+}
+.projs li b{
+  font-size: 1.2rem;
+}
 @keyframes App-logo-float {
   0% {
     transform: translateY(0);
